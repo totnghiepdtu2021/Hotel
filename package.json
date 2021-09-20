@@ -52,6 +52,8 @@
     ]
   },
   "devDependencies": {
-    "svg-url-loader": "^6.0.0"
+    "svg-url-loader": "^7.0.0"
   }
+  
+  
 }
