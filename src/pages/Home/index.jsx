@@ -37,12 +37,15 @@ function Home() {
               <Input placeholder="Nhập địa điểm, khách sạn"></Input>
             </div>
             <div className="home-slide-search-dateTime">
-              <RangePicker disabledDate={disabledDate}  placeholder={["Ngày đến", "Ngày đi"]}/>
+              <RangePicker
+                disabledDate={disabledDate}
+                placeholder={["Ngày đến", "Ngày đi"]}
+              />
               <div className="people">
                 <Input placeholder="Nhập số người"></Input>
               </div>
               <div>
-                <Button >
+                <Button>
                   <img src={iconSearch}></img>Tìm Kiếm
                 </Button>
               </div>
@@ -250,7 +253,7 @@ function Home() {
         </h2>
         <div className="home-commitment-container container">
           <div className="home-commitment-content">
-            <div >
+            <div>
               <img src={capnhatxuhuong} alt="" />
               <h2>
                 <b>Cập nhật xu hướng du lịch mới nhất</b>
@@ -278,7 +281,9 @@ function Home() {
             </div>
             <div>
               <img src={combodonggia} alt="" />
-              <h2><b>Combo đồng giá 1999k</b></h2>
+              <h2>
+                <b>Combo đồng giá 1999k</b>
+              </h2>
             </div>
             <div>
               <img src={vemaybay} alt="" />
@@ -289,7 +294,7 @@ function Home() {
           </div>
         </div>
       </div>
-     
+
       <div className="home-mentioned container">
         <h2>
           <b>Arya.com đã được nhắc đến</b>
